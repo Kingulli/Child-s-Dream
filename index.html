@@ -9,7 +9,7 @@
   <body>
     <a-scene >
       <a-assets>
-        <a-asset-item id="tree" src="assets/gnarly_old_tree_scanned_with_polycam__iphone_12/scene.gltf">
+        <a-asset-item id="tree" src="https://cdn.glitch.com/238e965f-eff5-4239-8755-de7d6a5ddde7%2Ftreebw.gltf?v=1607621741921">
           <a-asset-item id="diamond" src="https://cdn.glitch.com/e09de51a-7d58-4c58-8755-6b779a1cf255%2FDiamondsss.obj?v=1569522440897"></a-asset-item>
           <img id="diamond-texture" src="assets/diamonds.jpg">
           <audio id="river" src="assets/drone.m4a" preload="auto"></audio>
@@ -19,7 +19,7 @@
 
       <!-- TREE PART OF THE DREAM -->
       <a-entity id="tree-and-sphere" position="5 0 0">
-      <a-obj-model id="center-tree" gltf-model="assets/treebw.gltf" side="front"  rotation="0 0 0" scale= "15 20 15" opacity=".1" position="20 -10 -60"></a-obj-model>
+      <a-obj-model id="center-tree" gltf-model="#tree" side="front"  rotation="0 0 0" scale= "15 20 15" opacity=".1" position="20 -10 -60"></a-obj-model>
       <a-entity light="color: #EFEFEC; angle: 90; intensity: .7;" position="-10 1.1 0"></a-entity>
 
       <!-- DIAMOND PART OF THE DREAM  -->  
