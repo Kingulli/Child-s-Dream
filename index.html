@@ -12,10 +12,10 @@
         <a-asset-item id="tree" src="https://cdn.glitch.com/238e965f-eff5-4239-8755-de7d6a5ddde7%2Ftreebw.gltf?v=1607621741921">
           <a-asset-item id="diamond" src="https://cdn.glitch.com/e09de51a-7d58-4c58-8755-6b779a1cf255%2FDiamondsss.obj?v=1569522440897"></a-asset-item>
           <img id="diamond-texture" src="assets/diamonds.jpg">
-          <audio id="river" src="assets/drone.m4a" preload="auto"></audio>
+          <audio id="drone" src="assets/drone.m4a" preload="auto"></audio>
       </a-assets>
   
-    <a-entity position=" 0 0 0" sound="src: assets/drone.m4a; autoplay: true; loop: true; volume: 4">
+    <a-entity position=" 0 0 0" sound="src:#drone; autoplay: true; loop: true; volume: 4">
 
       <!-- TREE PART OF THE DREAM -->
       <a-entity id="tree-and-sphere" position="5 0 0">
